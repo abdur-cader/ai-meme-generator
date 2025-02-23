@@ -2,7 +2,7 @@ import google.generativeai as genai
 from gemini_training_data import training_data
 import time, os
 
-genai.configure(api_key="AIzaSyAZQOELgFxmhqaonFel5j4BWbvsCgh2Kwo")
+genai.configure(api_key="YOUR-API-KEY-HERE")
 
 base_model = "models/gemini-1.5-flash-001-tuning"
 
