@@ -16,7 +16,9 @@ Note, if you want to use Gemini's model, you'll have to tune it yourself - don't
 ## 3️⃣ Before you actually begin
 ### **A** - Installing Packages:
 - in your terminal, run the following code to install the required dependencies:
-  ```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ### **B** - Getting Started:
 - If you prefer to use Gemini's model, you'll need to train your own model. To do so, you need your own API key. You can get it [here.](https://aistudio.google.com/app/apikey)
