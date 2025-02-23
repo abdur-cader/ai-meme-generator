@@ -24,7 +24,7 @@ Note, if you want to use Gemini's model, you'll have to tune it yourself - don't
 
 ### **C** - Tuning Your Gemini Model
 - Head to `gemini_training.py` and insert your API key there. Run the code to tune your model; this might take some time- You'll just have to do this once.
-- After it's trained, go back to `gemini_main.py`, comment lines 8-15 (highlight lines 8-15, then `ctrl`+`/`), then run lines 22-24.
+- After it's trained, go back to `gemini_main.py`, comment lines 8-15 (highlight lines 8-15, then `ctrl`+`/`), then run lines 22-24. In your terminal, you'll see the username for your tuned model. Copy that and paste it into line 10, after `tunedModels/`
 - When you're done, you can uncomment line 8 to 15 again, and save the file. That's it!
 
 ## 🏁 Start-up
