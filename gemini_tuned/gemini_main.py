@@ -3,7 +3,7 @@ from google.generativeai.types import GenerationConfig #configure model output s
 import time, os
 
 # Use your API key here
-genai.configure(api_key="AIzaSyAZQOELgFxmhqaonFel5j4BWbvsCgh2Kwo")
+genai.configure(api_key="ENTER_YOUR_KEY_HERE")
 models = list(genai.list_tuned_models())
 config = GenerationConfig(max_output_tokens = 10)
 
@@ -14,7 +14,10 @@ def gemini_generate(intext):
     print(result.text)
     return result.text
 
+
+
+
+
+# View tuned models
 for model in models:
     print(model.name)
-
-# gemini_generate("hey gemini, im not feeling well today, be serious, how can i be better")
