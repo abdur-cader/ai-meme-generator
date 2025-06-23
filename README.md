@@ -10,7 +10,7 @@ Note, if you want to use Gemini's model, you'll have to tune it yourself - don't
 
 ## 2️⃣ Features
 - AI-Generated Captions: Generate captions based on the image using AI.
-- Custom captions: You may also enter your own preferred caption instead of using an AI-generated one; total control for ya 🤙
+- Custom captions: You may also enter your own preferred caption instead of using an AI-generated one.
 - Templates, for fun: You have the option to add your own captions on two different premade meme templates
 
 ## 3️⃣ Before you actually begin
@@ -31,4 +31,4 @@ pip install -r requirements.txt
 - When you're done, you can uncomment line 8 to 15 again, and save the file. That's it!
 
 ## 🏁 Start-up
-To start using the program, run `maintk.py`. Just note- if you're asked to enter the image path, you'll need to copy the full path to the image, otherwise it may not work. Or, you can save your image in the `\images` folder and enter the relative path
+To start using the program, run `maintk.py`. Just note- if you're asked to enter the image path, you'll need to copy the full path to the image, otherwise it may not work. Or, you can save your image in the `\images` folder and enter the relative path.
