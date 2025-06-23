@@ -1,4 +1,4 @@
-# AI-Meme-Generator 💥
+# AI Image Captioner
 
 ## ‼️Before you begin...
 how's your day going 🦔
